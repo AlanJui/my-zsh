@@ -24,23 +24,23 @@
 請參考**[這篇文件](http://sourabhbajaj.com/mac-setup/iTerm/zsh.html)**，進行「ZSH」、「oh-my-zsh」安裝作業；及「Default Shell」變更作業。
 
 
-    (1) 使用 homebrew 完成「ZSH」安裝：
+  (1) 使用 homebrew 完成「ZSH」安裝：
 
-        ```
-        brew install zsh zsh-completions
-        ```
+  ```
+  brew install zsh zsh-completions
+  ```
 
-    (2) 使用 curl 完成「oh-my-zsh」安裝
+  (2) 使用 curl 完成「oh-my-zsh」安裝
 
-        ```
-        curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-        ```
+  ```
+  curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+  ```
 
-    (3) 使用「終端機」執行下列指令，完成「Default Shell」變更
+  (3) 使用「終端機」執行下列指令，完成「Default Shell」變更
 
-        ```
-        chsh -s /bin/zsh
-        ```
+  ```
+  chsh -s /bin/zsh
+  ```
 
 ### 2. 安裝 Powerline Fonts
 
@@ -58,27 +58,25 @@
 
 ### 4. 設定 iTerm2 使用的 Profile
 
-    (1) 下載終端機的 Color Scheme：「Solarized dark iterm colors」
+  (1) 下載終端機的 Color Scheme：[Solarized dark iterm colors](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 
-    (2) 透過 iTerm2 的 Preferences 功能，完成「Colors 設定」
+  (2) 透過 iTerm2 的 Preferences 功能，完成「Colors 設定」
 
-        a. 下載「Solarized dark iterm colors」色彩設定
+    a. 執行「iTerm / Preference...」功能
 
-        b. 執行「iTerm / Preference...」功能
+    b. 切換到「 Profiles / Default / Colors」面板
 
-        c. 切換到「 Profiles / Default / Colors」面板
+    c. 執行「Load Presets... / Import....」功能，匯入「Solarized dark iterm colors」
 
-        d. 執行「Load Presets... / Import....」功能，匯入「Solarized dark iterm colors」
+  (3) 透過 iTerm2 的 Preferences 功能，完成「Text 設定」
 
-    (3) 透過 iTerm2 的 Preferences 功能，完成「Text 設定」
+    a. 執行「iTerm / Preference...」功能
 
-        a. 執行「iTerm / Preference...」功能
+    b. 切換到「 Profiles / Default / Text」面板
 
-        b. 切換到「 Profiles / Default / Text」面板
+    c. 在「Regular Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
 
-        c. 在「Regular Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
-
-        d. 在「Non-ASCII Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
+    d. 在「Non-ASCII Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
 
 ### 5. 複製 Theme 檔案到 Oh-My-Zsh 安裝的目錄路徑
 
@@ -113,6 +111,6 @@
 
   (2) 參考下列內容，變更「ZSH_THEME」的設定。
 
-     ```
+  ```
      ZSH_THEME="ccc"
-     ```
+  ```
