@@ -26,9 +26,15 @@ https://github.com/powerline/fonts
  
  2. 透過 iTerm2 的 Preferences 功能，完成「Colors 設定」
 
-     執行「Preferences / Profiles / Default / Colors / Load Presets... / Import....」功能，匯入 「Solarized dark iterm colors」
+     a. 執行「iTerm / Preference...」功能
+     b. 切換到「 Profiles / Default / Colors」面板
+     c. 執行「Load Presets... / Import....」功能，匯入 「Solarized dark iterm colors」
 
  3. 透過 iTerm2 的 Preferences 功能，完成「Text 設定」
+
+    a. 執行「iTerm / Preference...」功能
+    b. 切換到「 Profiles / Default / Text」面板
+    c. 在「Regular Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
 
 ### 3. 複製 Theme 檔案到 Oh-My-Zsh 安裝的目錄路徑
 
