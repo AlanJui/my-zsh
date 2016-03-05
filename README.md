@@ -1,7 +1,16 @@
-# 摘要
-客製個人用 ZSH 環境。
+# 文件摘要
 
-## 程序
+概述個人用 Oh-My-Zsh 的安裝及設定作業程序。
+
+**作業環境：**
+
+  - 作業系統： OS X V10.11.3
+  - iTerm2： Build 2.1.4
+  - ZSH： V5.0.7 (x86_64-apple-darwin15.2.0)
+
+## 安裝及設定作業程序
+
+**程序步驟：**
 
  1. 安裝 Oh-My-Zsh
  2. 安裝 Powerline Fonts
@@ -12,9 +21,26 @@
 
 ### 1. 安裝 Oh-My-Zsh
 
-請參考如下網址的這篇文件，進行「ZSH」安裝作業。
-
+請參考如下網址的這篇文件，進行「ZSH」、「oh-my-zsh」安裝作業；及「Default Shell」變更作業。
 http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
+
+  a. 使用 homebrew 完成「ZSH」安裝：
+  
+      ```
+      brew install zsh zsh-completions
+      ```
+
+  b. 使用 curl 完成「oh-my-zsh」安裝
+  
+      ```
+      curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+      ```
+      
+  c. 使用「終端機」執行下列指令，完成「Default Shell」變更
+  
+      ```
+      chsh -s /bin/zsh
+      ```
 
 ### 2. 安裝 Powerline Fonts
 
@@ -24,6 +50,14 @@ http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
 `https://github.com/powerline/fonts`
 
 ### 3. 安裝 iTerm2
+
+下載及安裝 iTerm2 軟體。
+
+  a. 自如下網址，完成 iTerm 2 下載。
+  
+      `http://www.iterm2.com/`
+    
+  b. 安裝 iTerm2 。
 
 ### 4. 設定 iTerm2 使用的 Profile
 
@@ -79,10 +113,3 @@ http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
      ZSH_THEME="ccc"
      ```
 
-## 環境
-
-以下摘要描述個人的作業環境：
-
-  * 作業系統： OS X V10.11.3
-  * iTerm2： Build 2.1.4
-  * ZSH： V5.0.7 (x86_64-apple-darwin15.2.0)
