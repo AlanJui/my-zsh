@@ -35,6 +35,7 @@ https://github.com/powerline/fonts
     a. 執行「iTerm / Preference...」功能
     b. 切換到「 Profiles / Default / Text」面板
     c. 在「Regular Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
+    d. 在「Non-ASCII Font」，透過「Change Font」按鈕，將「Font」變更成「Meslo LG S Regular for Powerline」
 
 ### 3. 複製 Theme 檔案到 Oh-My-Zsh 安裝的目錄路徑
 
